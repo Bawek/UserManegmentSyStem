@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+*{
+    margin: 0%;
+    padding:0px ;
+    box-sizing: border-box;
+}
+
+#a a.active{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px wheat ;
+    border-radius: 6px;
+    color: white;
+
+    }
+    a.active hr{
+        display: block;}
+
+       
